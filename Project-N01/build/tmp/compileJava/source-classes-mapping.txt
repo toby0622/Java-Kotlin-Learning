@@ -1,2 +1,4 @@
 com/toby/HelloWorld.java
  com.toby.HelloWorld
+com/toby/Person.java
+ com.toby.Person

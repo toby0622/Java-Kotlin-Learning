@@ -20,6 +20,7 @@ public class HelloWorld {
 
         // Reference Varialbe -> With Method (Capital Letter)
         String name = "Toby";
+        // Wrapper Class
         Integer age2 = 20;
         Character c2 = '我';
         Byte b2 = 120;

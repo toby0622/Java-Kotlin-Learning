@@ -4,7 +4,6 @@ public class HelloWorld {
     // psvm + tab = main function template
     public static void main(String[] args) {
         // sout + tab = println function template
-        // System.out.println("Hello World!");
 
         Person p = new Person("Toby", 80.0f, 1.8f);
         p.hello();

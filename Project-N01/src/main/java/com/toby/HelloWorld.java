@@ -8,25 +8,32 @@ public class HelloWorld {
 
         Person p = new Person();
         p.hello();
+        p.weight = 80.0f;
+        p.height = 1.8f;
+        System.out.println(p.bmi());
 
         // Basic Variable -> No Method (Lower-case Letter)
-        int age = 20;
+
+        /*int age = 20;
         char c = '我';
         byte b = 120;
         float weight = 80.0f;
         double height = 1.8;
         boolean adult = true;
-        boolean enroll = false;
+        boolean enroll = false;*/
 
         // Reference Varialbe -> With Method (Capital Letter)
-        String name = "Toby";
+
+        /*String name = "Toby";*/
+
         // Wrapper Class
-        Integer age2 = 20;
+
+        /*Integer age2 = 20;
         Character c2 = '我';
         Byte b2 = 120;
         Float weight2 = 80.0f;
         Double height2 = 1.8;
         Boolean adult2 = true;
-        Boolean enroll2 = false;
+        Boolean enroll2 = false;*/
     }
 }

@@ -6,16 +6,14 @@ public class HelloWorld {
         // sout + tab = println function template
         // System.out.println("Hello World!");
 
-        Person p = new Person();
+        Person p = new Person("Toby", 80.0f, 1.8f);
         p.hello();
-        p.weight = 80.0f;
-        p.height = 1.8f;
         System.out.println(p.bmi());
 
         // Basic Variable -> No Method (Lower-case Letter)
 
         /*int age = 20;
-        char c = '我';
+        char c = 'T';
         byte b = 120;
         float weight = 80.0f;
         double height = 1.8;
@@ -29,7 +27,7 @@ public class HelloWorld {
         // Wrapper Class
 
         /*Integer age2 = 20;
-        Character c2 = '我';
+        Character c2 = 'T';
         Byte b2 = 120;
         Float weight2 = 80.0f;
         Double height2 = 1.8;

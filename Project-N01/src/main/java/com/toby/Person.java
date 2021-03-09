@@ -2,8 +2,19 @@ package com.toby;
 
 public class Person {
     String name;
-    float height;
     float weight;
+    float height;
+
+    public Person(float weight, float height) {
+        this.weight = weight;
+        this.height = height;
+    }
+
+    // Overloading
+    public Person(String name, float weight, float height) {
+        this(weight, height);
+        this.name = name;
+    }
 
     public float bmi() {
         float bmi = weight / (height * height);

@@ -10,6 +10,12 @@ fun main() {
     h.hello()
     println(h.bmi())
 
+    val score = 88
+    println(score > 60)
+
+    val c : Char = 'A'
+    println(c.toInt() > 60)
+
     // val = value, not changeable
     // var = variable, changeable
 

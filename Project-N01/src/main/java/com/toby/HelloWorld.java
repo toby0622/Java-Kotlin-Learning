@@ -9,6 +9,13 @@ public class HelloWorld {
         p.hello();
         System.out.println(p.bmi());
 
+        int score = 88;
+        System.out.println(score > 80 && score < 90);
+        System.out.println(score < 80 || score > 90);
+
+        char c = 'A';
+        System.out.println(c > 'a');
+
         // Basic Variable -> No Method (Lower-case Letter)
 
         /*int age = 20;

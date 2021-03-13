@@ -6,7 +6,7 @@ fun main() {
 
     // Human().hello()
 
-    val h = Human(80.0f, 1.8f)
+    val h = Human(weight = 80.0f, height = 1.8f)
     h.hello()
     println(h.bmi())
 
@@ -25,7 +25,13 @@ fun main() {
     var name : String = "Toby"*/
 }
 
-class Human(var weight : Float, var height : Float) {
+class Human(var name: String = "", var weight: Float, var height: Float) {
+    init {
+        println("test $weight $height")
+    }
+
+    // constructor(name: String, weight: Float, height: Float) : this(weight, height)
+
     fun bmi() : Float {
         val bmi = weight / (height * height)
         return bmi

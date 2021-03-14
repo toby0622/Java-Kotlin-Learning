@@ -1,4 +1,8 @@
 com/toby/HelloWorld.java
  com.toby.HelloWorld
+com/toby/student/Student.java
+ com.toby.student.Student
 com/toby/Person.java
  com.toby.Person
+com/toby/student/StudentRunner.java
+ com.toby.student.StudentRunner

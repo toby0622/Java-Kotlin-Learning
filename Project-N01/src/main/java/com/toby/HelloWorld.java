@@ -5,6 +5,12 @@ public class HelloWorld {
     public static void main(String[] args) {
         // sout + tab = println function template
 
+        String s = "abcde";
+        System.out.println(s.charAt(3));
+        System.out.println(s.length());
+        System.out.println(s.substring(3));
+        System.out.println(s.substring(1, 4));
+
         Person p = new Person("Toby", 80.0f, 1.8f);
         p.hello();
         System.out.println(p.bmi());

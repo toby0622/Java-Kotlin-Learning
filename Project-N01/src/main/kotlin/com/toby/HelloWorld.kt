@@ -6,6 +6,12 @@ fun main() {
 
     // Human().hello()
 
+    var s:String? = "abcde"
+    s = null
+    println(s?.length)
+    println(s?.get(3))
+    println(s?.substring(3))
+
     val h = Human(weight = 80.0f, height = 1.8f)
     h.hello()
     println(h.bmi())
